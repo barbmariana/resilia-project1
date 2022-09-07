@@ -1,0 +1,147 @@
+*{
+    font-family: 'Rationale', sans-serif;
+}
+body{
+    margin: 0 0 0 0;
+}
+
+.container{
+    height: 1500px;
+    width: 100%;
+    padding:0px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    
+}
+
+.menubox{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #110420;
+}
+
+ul{
+    display:flex;
+}
+
+ul li{
+    height: 45px;
+    color: white;
+    margin: -30px 0 0 30px;
+    font-size: 15px;
+   
+
+}
+.aboutme1{
+    height: 40px;
+    background-color: rgb(18, 0, 34);
+    border-radius: 70%;
+    box-shadow: hsla(271, 76%, 53%, 0.592) 0.1em 0.1em 0.2em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.hobbies1{
+    height: 40px;
+    background-color: rgb(18, 0, 34);
+    border-radius: 70%;
+    box-shadow: hsla(271, 76%, 53%, 0.592) 0.1em 0.1em 0.2em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.contact1{
+    height: 40px;
+    background-color:rgb(18, 0, 34);
+    border-radius: 70%;
+    box-shadow: hsla(271, 76%, 53%, 0.592) 0.1em 0.1em 0.2em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+a:hover{
+    color: rgb(253, 176, 251);
+    text-shadow: #77185c 0.2em 0.2em 0.3em;
+}
+
+.aboutme{
+    height: 800px;
+    width: 100%;
+    margin:0;
+    background-image: linear-gradient(to bottom, hsl(271, 92%, 5%), hwb(272 2% 78%), #310f51f8);
+   
+}
+.aboutmecontent{
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.aboutme h1{
+
+    font-size: 70px;
+    text-shadow: hsla(271, 76%, 53%, 0.592) 0.1em 0.1em 0.2em;
+}
+
+img{
+    border-radius: 50%;
+    mix-blend-mode: luminosity;
+  
+
+
+}
+.aboutme p{
+    font-size: 25px;
+
+
+}
+
+.hobbies{
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0 0 0 0;
+   
+}
+
+.hobbiescontent{
+    color: #4c0a97;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.hobbiescontent h1{
+    font-size: 60px;
+    text-align: center;
+
+}
+.hobbiescontent p{
+    font-size: 30px;
+    text-align: center;
+}
+.contact{
+height: 350px;
+background-image: linear-gradient(to top,  hsl(271, 92%, 5%), hwb(272 2% 78%), #310f51f8);
+margin: 0 0 0 0;
+width: 100%;
+text-align: center;
+color: white;
+}
+
+.contact h1{
+    font-size: 50px;
+    text-shadow: hsla(271, 76%, 53%, 0.592) 0.1em 0.1em 0.2em;
+}
+
