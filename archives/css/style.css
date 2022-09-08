@@ -1,25 +1,31 @@
+
+/* Definição de fonte */
 *{
     font-family: 'Rationale', sans-serif;
 }
+
+/* Definição das margens do corpo inteiro da página */
 body{
     margin: 0 0 0 0;
 }
 
+/*  Definição do tamanho do container maior */
 .container{
     height: 1500px;
     width: 100%;
     padding:0px;
     display: flex;
     flex-wrap: wrap;
-
-
 }
+
+/*  Definição do tamanho da caixa do menu */
 
 header{
     height: 50px;
-    width: 100%;
-    
+    width: 100%;    
 }
+
+/* Definição do display, tamanho e cor da barra de menu */
 
 .menubox{
     display: flex;
@@ -30,6 +36,7 @@ header{
 
 ul{
     display:flex;
+    flex-direction: row;
 }
 
 ul li{
@@ -37,8 +44,6 @@ ul li{
     color: white;
     margin: -30px 0 0 30px;
     font-size: 15px;
-   
-
 }
 .aboutme1{
     height: 40px;
@@ -63,18 +68,22 @@ ul li{
     box-shadow: hsla(271, 76%, 53%, 0.592) 0.1em 0.1em 0.2em;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
+
+/*  Estilos de link, visited  e  hover */
+
 a:link{
     text-decoration: none;
 }
 
 a:visited{
-    color: white;
+   color: white;
 }
 a:hover{
     color: rgb(253, 176, 251);
     text-shadow: #77185c 0.2em 0.2em 0.3em;
 }
 
+/* Definição do container da primeira seção */
 .aboutme{
     height: 800px;
     width: 100%;
@@ -82,6 +91,8 @@ a:hover{
     background-image: linear-gradient(to bottom, hsl(271, 92%, 5%), hwb(272 2% 78%), #310f51f8);
    
 }
+
+/*  Definição dos estilos do conteúdo da primeira seção */
 .aboutmecontent{
     color: white;
     height: 100%;
@@ -97,24 +108,20 @@ a:hover{
 img{
     border-radius: 50%;
     mix-blend-mode: luminosity;
-  
-
-
 }
 .aboutme p{
     font-size: 25px;
-
-
 }
 
+/* Definição do container da segunda seção */
 .hobbies{
     height: 350px;
     background-color: rgb(255, 255, 255);
     width: 100%;
     margin: 0 0 0 0;
-   
 }
 
+/* Definição do estilo dos conteúdos da segunda seção */
 .hobbiescontent{
     color: #4c0a97;
     margin: 0;
@@ -131,6 +138,8 @@ img{
     font-size: 30px;
     text-align: center;
 }
+
+/* Definição do container da terceira seção */
 .contact{
 height: 350px;
 background-image: linear-gradient(to top,  hsl(271, 92%, 5%), hwb(272 2% 78%), #310f51f8);
@@ -140,6 +149,7 @@ text-align: center;
 color: white;
 }
 
+/* Definição do estilo dos conteúdos da terceira seção */
 .contact h1{
     font-size: 50px;
     text-shadow: hsla(271, 76%, 53%, 0.592) 0.1em 0.1em 0.2em;
