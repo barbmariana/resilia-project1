@@ -2,6 +2,7 @@
 /* Definição de fonte */
 *{
     font-family: 'Rationale', sans-serif;
+    
 }
 
 /* Definição das margens do corpo inteiro da página */
@@ -15,6 +16,7 @@ body{
     width: 100%;
     padding:0px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
