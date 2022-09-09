@@ -79,6 +79,7 @@ a:link{
 
 a:visited{
    color: white;
+   text-decoration: none;
 }
 a:hover{
     color: rgb(253, 176, 251);
@@ -87,6 +88,7 @@ a:hover{
 
 .menubox a{
     color: white;
+    text-decoration: none;
 }
 /* Definição do container da primeira seção */
 .aboutme{
