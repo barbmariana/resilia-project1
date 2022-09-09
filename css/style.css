@@ -11,7 +11,7 @@ body{
 
 @media only screen and (max-width: 600px) {
         .contact{
-            height: 800px;
+            height: 100%;
             background-image: linear-gradient(to top,  hsl(271, 92%, 5%), hwb(272 2% 78%), #310f51f8);
             width: 100%;
             color: white;
