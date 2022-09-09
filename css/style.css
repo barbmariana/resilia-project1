@@ -9,6 +9,16 @@ body{
     margin: 0 0 0 0;
 }
 
+@media only screen and (max-width: 600px) {
+        .contact{
+            height: 800px;
+            background-image: linear-gradient(to top,  hsl(271, 92%, 5%), hwb(272 2% 78%), #310f51f8);
+            width: 100%;
+            color: white;
+            background-size: cover;
+        }
+}
+
 /*  Definição do tamanho do container maior */
 .container{
     height: 1500px;
@@ -105,6 +115,7 @@ a:hover{
     height: 100%;
     width: 100%;
     text-align: center;
+
 }
 .aboutme h1{
 
