@@ -143,17 +143,34 @@ img{
 
 /* Definição do container da terceira seção */
 .contact{
-height: 350px;
-background-image: linear-gradient(to top,  hsl(271, 92%, 5%), hwb(272 2% 78%), #310f51f8);
-margin: 0 0 0 0;
-width: 100%;
-text-align: center;
-color: white;
+    height: 350px;
+    background-image: linear-gradient(to top,  hsl(271, 92%, 5%), hwb(272 2% 78%), #310f51f8);
+    margin: 0 0 0 0;
+    width: 100%;
+    text-align: center;
+    color: white;
 }
 
 /* Definição do estilo dos conteúdos da terceira seção */
 .contact h1{
     font-size: 50px;
     text-shadow: hsla(271, 76%, 53%, 0.592) 0.1em 0.1em 0.2em;
+}
+
+.contactsection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-shadow: hsla(271, 76%, 53%, 0.592) 0.1em 0.1em 0.2em;
+    letter-spacing: 2px;
+
+}
+.namebox{
+    margin: 20px;
+}
+input{
+    border-radius: 15px;
+    width: 300px;
+    box-shadow:1px 1px 2px rgba(138, 44, 226, 0.959)
 }
 
