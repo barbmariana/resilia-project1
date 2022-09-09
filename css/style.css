@@ -85,6 +85,9 @@ a:hover{
     text-shadow: #77185c 0.2em 0.2em 0.3em;
 }
 
+.menubox a{
+    color: white;
+}
 /* Definição do container da primeira seção */
 .aboutme{
     height: 800px;
