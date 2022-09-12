@@ -185,3 +185,35 @@ input{
     width: 300px;
     box-shadow:1px 1px 2px rgba(138, 44, 226, 0.959)
 }
+@media (max-width:600px){
+    .aboutme p{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .hobbiescontent h1{
+        font-size: 50px;
+    }
+    .hobbiescontent p{
+        font-size: 25px;
+        margin: 10px;
+    }
+    .contact h1{
+        font-size: 50px;
+        text-shadow: hsla(271, 76%, 53%, 0.592) 0.1em 0.1em 0.2em;
+    }
+    
+    .namebox{
+        margin: 10px;
+        font-size: 10px;
+    }
+    .emailbox{
+        margin: 10px;
+        font-size: 10px ;
+    }
+    input{
+        border-radius: 15px;
+        width: 200px;
+    }
+
+
+}
