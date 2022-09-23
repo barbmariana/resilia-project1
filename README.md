@@ -1,5 +1,5 @@
 # Resilia Project 1 💻	
-This was the first project of Resilia Full Stack Web Development course.
+This was the first project of Resilia Full Stack Web Development course. This was my first project using HTML and CSS.
 
 ##  Project Goal 📍
 For this project, we had to build a personal page with three sections such as "About me", "Hobbies" and "Contact". 
